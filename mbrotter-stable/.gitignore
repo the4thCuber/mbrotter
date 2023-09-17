@@ -1,3 +1,5 @@
+mbrotter
 *.mp4
 images/*
 .f*
+*.o
