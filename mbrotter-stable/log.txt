@@ -1,0 +1,111 @@
+commit 05ddcf23cc83246ce871f009edd72aff1e5e5055
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Sat Sep 16 16:51:34 2023 -0700
+
+    minor fixes
+    make zoomscript better
+    add ffmpeg definitions in mandelbrot.c to help streamline rendering
+
+commit e0e05a6de0e6d4c949bd3b488a38547cc527e9ff
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Sat Sep 16 15:41:31 2023 -0700
+
+    Reset commit for new branch
+
+commit f54142011760b065d12394db59023653d22d0c22
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Thu Feb 2 04:23:19 2023 -0700
+
+    FINALLY AMAZING COLORING!!!
+    YES!!! IT WORKS NOW!! THE MOMENT I'VE BEEN WAITING FOR FOR MONTHS!!!
+    LET'S GO!!!
+
+commit e1de6896955564e9cb2fe9a91df40a0c1028346a
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Thu Feb 2 03:27:05 2023 -0700
+
+    use sine coloring method
+    Yay! It works!
+
+commit 223a01e19432ba5991d5020cf8f19c6ef3f6dd30
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Sat Jan 28 23:00:58 2023 -0700
+
+    Speed: period checking
+    Added period checking with the level of 25
+    Also changed two *2^n instances with <<n
+
+commit c29f59ad50333a008bddd7db3ca89fe7ed5fd038
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Fri Jan 27 22:15:39 2023 -0700
+
+    Possible speed improvements
+    I will see how much they speed up the program and what I changed by doing a difference on this commit
+
+commit a42355b0d260b509cb1870a1b32e91bce5158ead
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Fri Jan 27 21:59:56 2023 -0700
+
+    Changed up the coloring again
+    And timed the zoom so I can tell how to make it faster :)
+
+commit 474b8c8879ce9af30b8becefc56d68c2c25e460e
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Wed Jan 25 22:54:23 2023 -0700
+
+    Changed up coloring a bit
+    Changed palette so that it's different
+    (I experimented with RGB on the Prime to find a good mix)
+    
+    Now, instead of coloring in terms of i, or even log(i),
+    the coloring is in terms of log(i)^.75, so it looks
+    much cleaner and smoother. I still should probably do
+    a manual palette and linear interpolation to use with
+    fractional iterations, though.
+
+commit 150f916dc8959d6329b2109d32033acc1edfd56b
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Tue Jan 24 20:24:08 2023 -0700
+
+    yes
+
+commit 89272a3e726bf95f85e2de0bf212e0b86a24fa1c
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Fri Jan 20 22:35:22 2023 -0700
+
+    IT WORKS!!
+
+commit 6986414475393773f092b2f8e3fb0d839728a9ce
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Fri Jan 20 22:08:14 2023 -0700
+
+    It's broken, but I'm committing so it won't lose anything
+
+commit b43b0460d99db7356ed0e176ef37b75705bd4e8d
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Sat Jan 14 13:24:26 2023 -0700
+
+    changed args for center coordinates
+    This and the addition of the deltapix variables makes it so that:
+        1. The size of each pixel remains constant, preventing distorted images
+        2. It's much easier to pass the zoom arguments to the C program from the
+    bash script, decluttering the script and making room for more advanced things
+        3. The program runs faster (and is easier to make speed improvements on)
+
+commit ffe5c37a906eaffbec4e36c3b529547536e31898
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Sat Jan 14 13:07:11 2023 -0700
+
+    stuff
+
+commit ff434ad43db748fa00e28001cb35b632e4f5f978
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Fri Jan 13 22:30:19 2023 -0700
+
+    fixed a rather uninintelligent mistake
+
+commit 7de6a3720e47b14e8d1e8b336b1a1d5f080adfa8
+Author: Iamaprogramador <iamaprogramador@gmail.com>
+Date:   Fri Jan 13 14:49:12 2023 -0700
+
+    fix chatgpt's mistakes
