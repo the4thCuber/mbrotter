@@ -10,10 +10,10 @@ num_frames=7500
 zoom_i=-2.4
 zoom_f=-14.5
 
-rm -r images
+rm -r -f images
 mkdir images
-gcc -o mandelbrot mandelbrot.c -lm
-./mandelbrot $width $height $xcenter $ycenter $zoom_i $zoom_f $num_frames $max_loop
+make
+./mbrotter $width $height $xcenter $ycenter $zoom_i $zoom_f $num_frames $max_loop
 ffmpeg -f image2 -framerate 30 -i images/%04d.ppm -s 1280x720 pbqfsyeufr.mp4
 #rm -r images
 
