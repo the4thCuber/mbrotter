@@ -1,0 +1,9 @@
+mbrotter
+*.mp4
+images/*
+.f*
+*.o
+*.avi
+*.mpg
+*.ogg
+*.mov
