@@ -2,12 +2,12 @@
 #include <stdlib.h>
 #include <math.h>
 //palette defines
-#define rshift 1.945
-#define gshift 3.023
-#define bshift 2.661
+#define rshift 2.71828172846
+#define gshift 3.14159265359
+#define bshift 1.61803398874
 //other defines
-#define bailout 400
+#define bailout 4000
 #define maxperiod 70
-#define iterscaling .125
+double iterscaling(double i, int f) {return pow(i, .416-1/(double)f+.51*(450/(double)f)*sin((double)f/69));}
 //misc (e.g. computation) defines
 #define l log(2)
