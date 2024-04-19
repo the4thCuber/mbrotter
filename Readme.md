@@ -1,4 +1,4 @@
-# Mbrotter v0.1.2 (27 Oct 2023)
+# Mbrotter v1.0.0b (19 Apr 2023)
 ---
 This program generates a series of images of fractals that are then converted to video.  
 [Description of the Mandelbrot Set](https://en.wikipedia.org/wiki/Mandelbrot_set)     
@@ -45,5 +45,6 @@ the zooming action in the video is not too slow or too fast.
 # Changelog:
 * 0.1.1 - 17 Sep 2023: Initialize
 * 0.1.2 - 27 Oct 2023: Check everything over, add progress bar
+* 1.0.0b - 19 Apr 2024: Minor changes, massive efficiency now I can focus better
 
 > Released under the GPL3 license by the4thCuber
