@@ -25,8 +25,6 @@ int main(int argc, char* argv[]) {
     double max_loop=atoi(argv[8]);
     double zoom=zoom_i;
     char filename[30];
-    double x0 = rand()/1000000000;
-    double y0 = rand()/1000000000;
     char cmd[99]; //make sure has enough chars for the ffmpeg cmd
     clock_t start, end;
     double cpu_time, cpu_total=0.0;
@@ -35,7 +33,7 @@ int main(int argc, char* argv[]) {
 	start = clock();
 	sprintf(filename, "images/%04d.ppm", z);
 	//draw frame and perform post-processing
-	mndl(width, height, xcenter, ycenter, x0, y0, pow(10, zoom), max_loop, filename);
+	mndl(width, height, xcenter, ycenter, pow(10, zoom), max_loop, z+1, filename);
 	sprintf(cmd, "ffmpeg -loglevel 0 -i images/%04d.ppm images/%04d.png; rm images/%04d.ppm", z, z, z);
 	int status = system(cmd);
 	if (status == -1) {

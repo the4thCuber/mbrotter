@@ -1,14 +1,13 @@
-Mbrotter v0.1.2 (27 Oct 2023)
+Mbrotter v1.0.0c (13 Apr 2024)
 
 This program generates a series of images that then is converted to video.
 The images are successive frames of the Mandelbrot Set.
 [https://en.wikipedia.org/wiki/Mandelbrot_set | Description of the Mandelbrot Set]
-To see an example of this program, watch [https://www.youtube.com/playlist?list=PL5jVFBHrC0F-W4pdNcpXEOrn2nLp5iJCm | this playlist].
 
 Dependencies:
 *a C compiler to compile from source (gcc is specified in the makefile)
 *ffmpeg (you could potentially edit some parts of the code to not use
-	ffmpeg if it is not available on your machine)
+	ffmpeg if the tool is not available on your machine)
 *make
 
 Editing configurations:
@@ -41,9 +40,5 @@ good value, should stay in the range ([-2,.5],[-1,1]).
     Zoom_i/zoom_f: intial and final zoom levels, in log base 10 form. 
     Note: carefully pick the framerate, number of frames, and initial/final zoom so that
 the zooming action in the video is not too slow or too fast.
-
-Changelog:
-0.1.1 - 17 Sep 2023: Initialize
-0.1.2 - 27 Oct 2023: Check everything over, add progress bar
 
 Released under the GPL3 license by the4thCuber

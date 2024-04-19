@@ -1,1 +1,1 @@
-void mndl(int WIDTH, int HEIGHT, double XCENTER, double YCENTER, double X0, double Y0, double DELTAPIX, double m, char* filename);
+void mndl(int WIDTH, int HEIGHT, double XCENTER, double YCENTER, double DELTAPIX, double m, int f, char* filename);
